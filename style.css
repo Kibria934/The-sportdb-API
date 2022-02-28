@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(255, 38, 0, 0.212);
+}
+
+.box {
+    width: 50%;
+}
+
+#button-search {
+    background-color: rgba(255, 230, 0, 0.692);
+    outline: 0;
+    border: 1;
+}
+
+#spinner {
+    display: none;
+}
+
+#malePerson {
+    border: 1px solid white;
+    border-radius: 10px;
+    float: inline-end;
+    display: none;
+}
+
+#female {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 200px;
+    height: 100%;
+    display: none;
+}
+
+@media (max-width:700px) {
+    .man {
+        width: 50px;
+    }
+}
